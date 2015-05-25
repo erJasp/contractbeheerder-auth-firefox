@@ -1,0 +1,26 @@
+{
+    "id": "contractbeheerder.auth@erJasp",
+    "title": "ContractBeheerder Authentication",
+    "name": "contractbeheerder",
+    "version": "0.0.1",
+    "description": "This addon provided a Java-free authentication method for ContractBeheerder",
+    "main": "index.js",
+    "author": "erJasp",
+    "homepage": "https://github.com/erJasp/contractbeheerder-auth-firefox",
+    "engines": {
+        "firefox": ">=34"
+    },
+    "license": "MIT",
+    "preferences": [{
+        "name": "url",
+        "title": "Application URL",
+        "type": "string",
+        "value": "*.contractbeheerder.nl"
+    },
+    {
+        "name": "java",
+        "title": "Java Applet",
+        "type": "bool",
+        "value": true
+    }]
+}
