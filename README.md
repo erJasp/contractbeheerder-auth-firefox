@@ -1,3 +1,5 @@
+***[DEPRECATED]** It seems the affected vendor eventually changed the method of authentication, so this isn't relevant any more. However, still a great example on how some vendors implement "authentication". **Don't try this at home.** Big no-no.*
+
 # contractbeheerder-auth-firefox
 This Firefox addon provided a Java-free authentication method for [ContractBeheerder](http://www.contractbeheerder.nl/).
 
